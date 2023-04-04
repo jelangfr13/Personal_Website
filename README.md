@@ -26,8 +26,8 @@
 - Javascript
 
 ----------
-## Netlify Link
-[Personal Website](https://jelangfikriramadhan.netlify.app/)
+## Sites Link
+[Netlify](https://jelangfikriramadhan.netlify.app/)
 
 ----------
 ## Preview
