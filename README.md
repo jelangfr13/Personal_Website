@@ -26,6 +26,10 @@
 - Javascript
 
 ----------
+## Netlify Link
+[Personal Website](https://jelangfikriramadhan.netlify.app/)
+
+----------
 ## Preview
 
 1. Homepage
