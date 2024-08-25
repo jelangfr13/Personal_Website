@@ -1,3 +1,4 @@
+/* --- BODY --- */
 body {
     margin: 0;
     padding: 0;
@@ -7,6 +8,7 @@ body {
     background-repeat: no-repeat;
 }
 
+/* --- NAVBAR --- */
 nav {
     position: relative;
     padding: 18px 0;
@@ -54,6 +56,61 @@ nav {
 #navMenu a:hover {
     color: rgb(0, 38, 255);
     font-size: 20px;
+}
+
+/* --- HOME-1 --- */
+#home-1 {
+    margin-top: 130px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+#home-1 b {
+    font-size: 36px;
+    color: #0b5494;
+}
+#home-1 a {
+    text-decoration: none;
+    color: black;
+}
+#home-1 a:hover {
+    color: #0b5394;
+}
+
+/* --- HOME-2 --- */
+#home-2 {
+    margin-top: 40px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    display: flex;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    gap: 60px;
+}
+.buttonDetails {
+    margin-top: 20px;
+    border-radius: 20px;
+    background-color: rgb(63, 63, 63);
+    width: 100px;
+    height: 35px;
+}
+.buttonDetails:hover {
+    background-color: #0b5394;
+}
+.buttonDetails a {
+    font-size: 16px;
+    text-decoration: none;
+    color: white;
+}
+
+.garisBatasHome {
+    border: none;
+    background-color: #00000027;
+    height: 2px;
+    margin-left: 120px;
+    margin-right: 600px;
 }
 
 @media only screen and (max-width: 1024px) {
