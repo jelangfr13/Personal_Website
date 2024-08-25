@@ -9,13 +9,15 @@
         <script src="https://kit.fontawesome.com/7e0277cb02.js" crossorigin="anonymous"></script>
         <script src="https://code.iconify.design/iconify-icon/1.0.6/iconify-icon.min.js"></script>
         <nav>
-            <a href="../index.html" id="navNama">Jelang Fikri Ramadhan</a>
+            <a href="index.html" id="navNama">Jelang Fikri Ramadhan</a>
             <div id="navMenu">
+                <button id="navClose" onclick="toggleNav()">×</button>
                 <a href="../index.html">Home</a>
-                <a href="aboutme.html">About Me</a>
-                <a href="portofolio.html">Portofolio</a>
-                <a href="linkedin.html" class="active">Linked In</a>
+                <a href="./aboutme.html">About Me</a>
+                <a href="./portofolio.html">Portofolio</a>
+                <a href="./linkedin.html" class="active">Linked In</a>
             </div>
+            <button id="navToggle" onclick="toggleNav()">☰</button>
         </nav>
     </head>
 
@@ -25,10 +27,14 @@
             <i class="fa-solid fa-school fa-sm" style="color: #0b5394; padding-right: 18px;"></i>My Linkedin
         </div>
 
-        <img class="img-linkedin" src="../assets/image3.png" alt="Linkedin Jelang Fikri Ramadhan" style="box-shadow: 0 2px 6px #0b5394; width: 800px;">
+        <img class="img-linkedin" src="../assets/image3.png" alt="Linkedin Jelang Fikri Ramadhan" style="box-shadow: 0 2px 6px #0b5394">
         
         <button type="button" id="buttonLinkedin"><h3><a href="https://www.linkedin.com/in/jelangfikriramadhan/">Klik Untuk Terhubung</a></h3></button>
     </div>
 </body>
-
+<script>
+    function toggleNav() {
+      document.querySelector('nav').classList.toggle('nav-open');
+    }
+</script>
 </html>
