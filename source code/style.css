@@ -113,6 +113,181 @@ nav {
     color: white;
 }
 
+/* AME 1 */
+#ame-1 {
+    margin-top: 50px;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.ame1logo {
+    color: #0b5394; font-size: 32px; font-weight: bold; margin-left: -10px;
+}
+.ame1logo i {
+    color: #0b5394; padding-right: 17px;
+}
+#ame-1-1 {
+    margin-top: 20px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    border-left: 2px solid #0b549483;
+    font-size: 18px;
+  }
+#ame-1-1 a {
+    color: #000000;
+    text-decoration-line: none;
+  }
+#ame-1-1 a:hover {
+    color: #0b5394;
+}
+
+/* GARIS AME 1 */
+.garisBatasAme {
+    border: none;
+    background-color: #00000027;
+    height: 2px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+/* AME 2 */
+#ame-2 {
+    margin-top: 50px;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.ame2logo {
+    color: #0b5394; font-size: 28px; font-weight: bold; margin-left: -10px; margin-bottom: -15px;
+}
+.ame2logo i {
+    color: #0b5394; padding-right: 18px;
+}
+#ame-2-1 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    gap: 60px;
+}
+#ame-2-1 img {
+    width: 200px;
+}
+.sma1 {
+    font-size: 28px; font-weight: bold;
+}
+.sma2 {
+    font-size: 20px; margin-top: 10px;
+}
+.sma3 {
+    font-size: 16px; margin-top: 5px;
+}
+
+/* AME 3 */
+#ame-3 {
+    margin-top: 50px;
+    margin-left: 130px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.ame3logo {
+    color: #0b5394;
+    font-size: 28px;
+    font-weight: bold;
+    margin-left: -10px;
+    margin-bottom: 30px;
+}
+.ame3logo i {
+    color: #0b5394; padding-right: 18px;
+}
+#ame-3-1 {
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    border-left: 2px solid #0b549483;
+    padding-left: 30px;
+    color: #000000;
+    gap: 30px;
+}
+.binary1 {
+    font-size: 28px;
+    font-weight: bold;
+}
+.binary2 {
+    font-size: 20px;
+    margin-top: 10px;
+}
+.binary2 a {
+    color: #000000;
+    text-decoration: none;
+}
+.binary2 a:hover{
+    color: blue;
+}
+.binary3 {
+    font-size: 16px;
+    margin-top: 5px;
+}
+
+/* AME 4 */
+#ame-4 {
+    margin-top: 50px;
+    margin-left: 130px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.ame4logo {
+    color: #0b5394; font-size: 28px; font-weight: bold; margin-left: -10px;
+}
+.ame4logo i {
+    color: #0b5394; padding-right: 18px;
+}
+.ame-4-1 {
+    margin-top: 30px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 900px;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 10px;
+    padding: 0 20px;
+    width: fit-content;
+    background-color: #0b539440;
+    border-radius: 10px
+}
+.icon {
+    width: 30;
+}
+#ppt {
+    width: 240px;
+}
+.box:hover {
+    background-color: #0b539480;
+}
+
 
 
 @media only screen and (max-width: 1024px) {
