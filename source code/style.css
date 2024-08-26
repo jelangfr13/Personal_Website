@@ -206,6 +206,15 @@ nav {
 .sma3 {
     font-size: 16px; margin-top: 5px;
 }
+.unej1 {
+    font-size: 28px; font-weight: bold;
+}
+.unej2 {
+    font-size: 20px; margin-top: 10px;
+}
+.unej3 {
+    font-size: 16px; margin-top: 5px;
+}
 
 /* AME 3 */
 #ame-3 {
@@ -502,7 +511,7 @@ nav {
         gap: 10px;
     }
     #ame-2-2 {
-        margin-left: 30px;
+        margin-left: 50px;
         display: flex;
         flex-direction: column;
         gap: 30px;
