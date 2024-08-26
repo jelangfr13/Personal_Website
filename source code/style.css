@@ -147,7 +147,7 @@ nav {
     color: #0b5394;
 }
 
-/* GARIS AME 1 */
+/* GARIS AME */
 .garisBatasAme {
     border: none;
     background-color: #00000027;
@@ -182,7 +182,19 @@ nav {
     color: #000000;
     gap: 60px;
 }
+#ame-2-2 {
+    margin-top: 50px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+    gap: 60px;
+}
 #ame-2-1 img {
+    width: 200px;
+}
+#ame-2-2 img {
     width: 200px;
 }
 .sma1 {
@@ -263,10 +275,10 @@ nav {
 .ame-4-1 {
     margin-top: 30px;
     padding-left: 30px;
+    padding-right: 30px;
     display: flex;
-    flex-direction: row;
+    flex-wrap: wrap;
     gap: 20px;
-    width: 900px;
 }
 .box {
     display: flex;
@@ -277,9 +289,6 @@ nav {
     width: fit-content;
     background-color: #0b539440;
     border-radius: 10px
-}
-.icon {
-    width: 30;
 }
 #ppt {
     width: 240px;
@@ -350,6 +359,54 @@ nav {
     #home-2 img {
         margin-left: 150px;
     }
+
+    #ame-1 {
+        margin-top: 50px;
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    .garisBatasAme {
+        border: none;
+        background-color: #00000027;
+        height: 2px;
+        margin-left: 70px;
+        margin-right: 70px;
+    }
+
+    #ame-2 {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+
+    #ame-3 {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    
+    #ame-4 {
+        margin-left: 80px;
+        margin-right: 80px;
+    }
+    .binary1 {
+        font-size: 20px;
+        font-weight: bold;
+    }
+    .binary2 {
+        font-size: 16px;
+        margin-top: 10px;
+    }
+    .binary2 a {
+        color: #000000;
+        text-decoration: none;
+    }
+    .binary2 a:hover{
+        color: blue;
+    }
+    .binary3 {
+        font-size: 14px;
+        margin-top: 5px;
+    }
 }
 
 @media only screen and (max-width: 480px) {
@@ -419,5 +476,45 @@ nav {
     }
     #home-2 img {
         margin-left: 50px;
+    }
+
+    #ame-1 {
+        margin-top: 50px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    .garisBatasAme {
+        border: none;
+        background-color: #00000027;
+        height: 2px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+
+    #ame-2 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    #ame-2-1 {
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    #ame-2-2 {
+        margin-left: 30px;
+        display: flex;
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    #ame-3 {
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    
+    #ame-4 {
+        margin-left: 50px;
+        margin-right: 50px;
     }
 }
