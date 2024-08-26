@@ -299,11 +299,47 @@ nav {
     background-color: #0b539440;
     border-radius: 10px
 }
-#ppt {
-    width: 240px;
-}
 .box:hover {
     background-color: #0b539480;
+}
+
+/* PORTOFOLIO */
+#pf-1 {
+    margin-top: 50px;
+    margin-left: 130px;
+    margin-right: 130px;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #000000;
+}
+.pflogo {
+    color: #0b5394; font-size: 32px; font-weight: bold; margin-left: -10px;
+}
+.pflogo i {
+    padding-right: 10px;
+}
+#pf-1-1 {
+    margin-top: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    color: #0b5394;
+}
+.pf-box h2 {
+    margin-bottom: 15px;
+}
+.pf-box h2 a {
+    text-decoration: none;
+    color: #0b5394;
+}
+.pf-box h2 a:hover {
+    color: blue;
+}
+.pf-box img {
+  width: 700px;
+  border-radius: 10px;
 }
 
 
@@ -351,6 +387,12 @@ nav {
     }
     #home-2 img {
         margin-left: 200px;
+    }
+
+    #pf-1 {
+        margin-top: 30px;
+        margin-left: 70px;
+        margin-right: 70px;
     }
 }
 
@@ -416,6 +458,16 @@ nav {
         font-size: 14px;
         margin-top: 5px;
     }
+
+    #pf-1 {
+        margin-top: 10px;
+        margin-left: 50px;
+        margin-right: 50px;
+    }
+    .pf-box img {
+        width: 650px;
+        border-radius: 10px;
+      }
 }
 
 @media only screen and (max-width: 480px) {
@@ -525,5 +577,14 @@ nav {
     #ame-4 {
         margin-left: 50px;
         margin-right: 50px;
+    }
+
+    .pf-box img {
+        width: 300px;
+        border-radius: 10px;
+    }
+    .pf-box h2 {
+        font-size: 20px;
+        margin-bottom: 10px;
     }
 }
