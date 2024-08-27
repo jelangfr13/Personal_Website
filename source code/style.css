@@ -476,7 +476,10 @@ nav {
 
 @media only screen and (max-width: 480px) {
     body {
-        background-image: none;
+        background-image: url("../assets/bg-3.png");
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
     }
 
     #navMenu {
@@ -512,7 +515,7 @@ nav {
     }
 
     #home-1 {
-        margin-top: 50px;
+        margin-top: 150px;
         margin-left: 50px;
         margin-bottom: 50px;
     }
@@ -544,7 +547,7 @@ nav {
     }
 
     #ame-1 {
-        margin-top: 50px;
+        margin-top: 120px;
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -583,6 +586,9 @@ nav {
         margin-right: 50px;
     }
 
+    #pf-1-1 {
+        margin-top: 100px;
+    }
     .pf-box img {
         width: 300px;
         border-radius: 10px;
