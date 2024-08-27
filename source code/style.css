@@ -10,13 +10,17 @@ body {
 
 /* --- NAVBAR --- */
 nav {
-    position: relative;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
     padding: 18px 0;
     background-color: whitesmoke;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     display: flex; 
     justify-content: space-around; 
     align-items: center;
+    z-index: 1000;
   }
 #navToggle {
     display: none;
@@ -115,7 +119,7 @@ nav {
 
 /* AME 1 */
 #ame-1 {
-    margin-top: 50px;
+    margin-top: 100px;
     margin-left: 130px;
     margin-right: 130px;
     margin-bottom: 50px;
