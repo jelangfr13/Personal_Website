@@ -10,7 +10,7 @@ body {
 
 /* --- NAVBAR --- */
 nav {
-    position: fixed;
+    position: sticky;
     top: 0;
     left: 0;
     right: 0;
@@ -64,7 +64,7 @@ nav {
 
 /* --- HOME-1 --- */
 #home-1 {
-    margin-top: 130px;
+    margin-top: 100px;
     margin-left: 130px;
     margin-bottom: 50px;
     font-family: Arial, Helvetica, sans-serif;
@@ -119,7 +119,7 @@ nav {
 
 /* AME 1 */
 #ame-1 {
-    margin-top: 100px;
+    margin-top: 50px;
     margin-left: 130px;
     margin-right: 130px;
     margin-bottom: 50px;
@@ -309,14 +309,11 @@ nav {
 
 /* PORTOFOLIO */
 #pf-1 {
-    margin-top: 50px;
-    margin-left: 130px;
-    margin-right: 130px;
+    margin-top: 30px;
+    /* margin-left: 130px;
+    margin-right: 130px; */
     margin-bottom: 50px;
-    display: flex;
-    flex-direction: column;
     font-family: Arial, Helvetica, sans-serif;
-    color: #000000;
 }
 .pflogo {
     color: #0b5394; font-size: 32px; font-weight: bold; margin-left: -10px;
@@ -325,10 +322,11 @@ nav {
     padding-right: 10px;
 }
 #pf-1-1 {
-    margin-top: 20px;
     display: flex;
-    flex-direction: column;
-    gap: 10px;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 100px;
+    row-gap: 20px;
     color: #0b5394;
 }
 .pf-box h2 {
@@ -342,7 +340,7 @@ nav {
     color: blue;
 }
 .pf-box img {
-  width: 700px;
+  max-width: 500px;
   border-radius: 10px;
 }
 
@@ -515,7 +513,7 @@ nav {
     }
 
     #home-1 {
-        margin-top: 120px;
+        margin-top: 80px;
         margin-left: 50px;
         margin-bottom: 50px;
     }
@@ -547,7 +545,7 @@ nav {
     }
 
     #ame-1 {
-        margin-top: 120px;
+        margin-top: 50px;
         margin-left: 50px;
         margin-right: 50px;
     }
@@ -587,7 +585,7 @@ nav {
     }
 
     #pf-1-1 {
-        margin-top: 100px;
+        margin-top: 30px;
     }
     .pf-box img {
         width: 300px;
