@@ -7,6 +7,15 @@ body {
     background-size: cover;
     background-repeat: no-repeat;
 }
+.ame-bg {
+    position: fixed;
+    z-index: -1;
+    max-width: 100%;
+    opacity: 75%;
+}
+.ame-bg-mobile {
+    display: none;
+}
 
 /* --- NAVBAR --- */
 nav {
@@ -300,7 +309,7 @@ nav {
     gap: 10px;
     padding: 0 20px;
     width: fit-content;
-    background-color: #0b539440;
+    background-color: #0b54946a;
     border-radius: 10px
 }
 .box:hover {
@@ -348,7 +357,7 @@ nav {
 
 @media only screen and (max-width: 1024px) {
     body {
-        background-image: url("../assets/bg-2.png");
+        /* background-image: url("../assets/bg-2.png"); */
         background-size: cover;
         background-position-y: 80px;
         background-position-x: -50px;
@@ -379,6 +388,9 @@ nav {
         margin-right: 80px;
     }
 
+    .ame-bg {
+        max-width: 100%;
+    }
     #home-2 {
         margin-top: 40px;
         margin-left: 80px;
@@ -413,6 +425,9 @@ nav {
         margin-left: 150px;
     }
 
+    .ame-bg {
+        max-width: 200%;
+    }
     #ame-1 {
         margin-top: 50px;
         margin-left: 80px;
@@ -478,6 +493,7 @@ nav {
         background-size: cover;
         background-position: center;
         background-repeat: no-repeat;
+        z-index: -100;
     }
 
     #navMenu {
@@ -503,17 +519,17 @@ nav {
         text-decoration: none;
     }
     #navToggle {
-        display: flex; /* Tampilkan tombol hamburger di mobile */
+        display: flex;
     }  
     .nav-open #navMenu {
-        display: flex; /* Tampilkan menu ketika tombol hamburger ditekan */
+        display: flex;
     }
     #navClose {
-        display: block; /* Tampilkan tombol Close di mobile */
+        display: block;
     }
 
     #home-1 {
-        margin-top: 80px;
+        margin-top: 50px;
         margin-left: 50px;
         margin-bottom: 50px;
     }
@@ -544,6 +560,15 @@ nav {
         margin-left: 50px;
     }
 
+    .ame-bg {
+        display: none;
+    }
+    .ame-bg-mobile {
+        display: block;
+        position: fixed;
+        z-index: -1;
+        max-width: 100%;
+    }
     #ame-1 {
         margin-top: 50px;
         margin-left: 50px;
@@ -584,6 +609,17 @@ nav {
         margin-right: 50px;
     }
 
+    .pf-bg {
+        display: none;
+    }
+    .pf-bg-mobile {
+        top: 10px;
+        left: 0;
+        display: block;
+        position: fixed;
+        z-index: -1;
+        max-width: 110%;
+    }
     #pf-1-1 {
         margin-top: 30px;
     }
